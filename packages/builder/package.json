@@ -1,0 +1,28 @@
+{
+  "name": "builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "vitejs package builder",
+  "keywords": [],
+  "author": "GRINE Arbi <arb.grn@gmail.com>",
+  "license": "UNLICENSED",
+  "main": "lib/builder.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {},
+  "bin": {
+    "builder": "./lib/builder.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^3.0.1",
+    "vite": "^4.0.4",
+    "vite-plugin-dts": "^1.0.5"
+  }
+}

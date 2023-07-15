@@ -1,0 +1,6 @@
+config/*
+scripts/*
+build/*
+**/dist/*
+**/*.test.ts
+**/*.test.tsx
